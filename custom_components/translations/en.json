@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure WalleCube UPS",
+        "data": {
+          "device_id": "IMEI",
+          "password": "Password"
+        }
+      }
+    }
+  },
+  "services": {
+    "send_magic_packet": {
+      "name": "Remote Wake-up",
+      "description": "Wake up a device that supports WOL in the same local network as the UPS by entering the MAC address."
+    },
+    "mac_address": {
+      "name": "Device MAC Address",
+      "description": "MAC address of the device that supports WOL, such as 11:22:33:44:55:66."
+    }
+  }
+}

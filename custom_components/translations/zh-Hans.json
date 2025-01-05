@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "设置瓦力盒子 UPS",
+        "data": {
+          "device_id": "设备IMEI",
+          "password": "设备密钥"
+        }
+      }
+    }
+  },
+  "services": {
+    "send_magic_packet": {
+      "name": "远程开机",
+      "description": "输入和UPS相同局域网内且支持WOL的设备的MAC地址实现远程开机"
+    },
+    "mac_address": {
+      "name": "设备MAC地址",
+      "description": "支持WOL唤醒的设备MAC地址，如 11:22:33:44:55:66。"
+    }
+  }
+}
