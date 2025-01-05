@@ -1,4 +1,4 @@
-# 瓦力盒子 (WalleCube) UPS Home Assistant集成
+# 瓦力盒子 (WalleCube) UPS Home Assistant 集成
 
 集成通过订阅官方MQTT服务器实现UPS状态实时获取。
 
@@ -8,7 +8,9 @@
 
 电脑安装好Wireshark等抓包软件，并开启热点和Wireshark（开启抓包后可以输入mqtt过滤包），然后将UPS配网连接到电脑热点上。一切正常的话你就能获取到对应UPS的MQTT认证信息了。获取到信息后就可以将UPS的网络正常切换到路由器去了。
 
-<a href="wireshark"><img src="https://github.com/xswxm/home-assistant-wallecube/blob/master/wireshark.png" width="256" ></a>
+<a href="wireshark"><img src="https://github.com/xswxm/home-assistant-wallecube/blob/main/wireshark.png?raw=true" width="512" ></a>
+
+
 
 # 安装方式
 
